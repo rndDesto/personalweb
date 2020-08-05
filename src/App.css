@@ -85,5 +85,4 @@ h6 {
   --primary-color: #E8590C;
   --text-color: #25282B;
   --blue-color: #487A9D;
-  font-size: calc(100vw * 16 / 1440);
 }
