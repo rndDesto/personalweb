@@ -9,14 +9,14 @@ import config from '../webpack.config.dev';
 
 const bundler = webpack(config);
 const app = express();
-const port = 4000;
+const port = 5000;
 
 app.use(historyApiFallback());
 app.use(webpackDevMiddleware(bundler, {
   noInfo: true,
   publicPath: config.output.publicPath,
   quiet: true,
-  stats: "minimal",
+  stats: 'minimal',
 }));
 app.use(webpackHotMiddleware(bundler));
 app.use(express.static(path.join(__dirname, '../src')));
