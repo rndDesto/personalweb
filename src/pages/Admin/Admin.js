@@ -12,7 +12,6 @@ const Admin = ({ history }) => {
   const { goBack } = useHistory();
   const { pathname } = useLocation();
 
-  console.log('param = ', pathname);
   return (
     <Fragment>
       <Router history={history}>
