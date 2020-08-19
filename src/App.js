@@ -22,7 +22,7 @@ const App = ({ history, store }) => (
 
 
 const AdminRoot = () => {
-  console.log("mantap")
+  console.log("mantap pake S")
   return(
     <Fragment>
       Admin
