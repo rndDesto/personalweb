@@ -22,6 +22,7 @@ const App = ({ history, store }) => (
 
 
 const AdminRoot = () => {
+  console.log("mantap")
   return(
     <Fragment>
       Admin
